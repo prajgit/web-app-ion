@@ -1,2 +1,11 @@
-# web-app-ion
-This repo hosts the code for running web app code 
+This is a sample Web Application to use during Continuous Integration demos.
+
+#Build Instruction
+
+```
+mvn3 clean package
+```
+
+#Deploy instruction
+
+Deploy ```target/WebApp.war``` on Tomcat
